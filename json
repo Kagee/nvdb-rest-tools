@@ -1,0 +1,2 @@
+#! /bin/bash
+GET -H 'Accept: application/vnd.vegvesen.nvdb-v1+json' "https://www.vegvesen.no/nvdb/api/$1"
